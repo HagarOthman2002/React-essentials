@@ -1,10 +1,11 @@
-import ReactImg from "../../assets/react-core-concepts.png"
-import "./Header.css"
+import ReactImg from "../../assets/react-core-concepts.png";
+import "./Header.css";
 const reactDescriptions = ["Core", "Fundamental", "Crucial"];
 
 const getRandomIndex = (max) => Math.floor(Math.random() * max);
 
-const randomWord = () => reactDescriptions[getRandomIndex(reactDescriptions.length)];
+const randomWord = () =>
+  reactDescriptions[getRandomIndex(reactDescriptions.length)];
 
 export default function Header() {
   return (
